@@ -264,7 +264,7 @@ This project uses synthetic data generated for educational, research, and portfo
 
 **Joan Joshua**
 
-Data Scientist | Machine Learning Engineer | Public Health Analytics
+Data Scientist | Machine Learning Engineer | Public Health Analytics | Physician
 
 ---
 
