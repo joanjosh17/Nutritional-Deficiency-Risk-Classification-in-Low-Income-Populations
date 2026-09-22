@@ -1,0 +1,40 @@
+Column,Description,Type,Range / Categories
+Respondent_ID,Unique synthetic respondent identifier,Categorical ID,N/A
+Survey_Year,Synthetic survey year,Integer,2021–2025
+Age,Age in years,Numeric,1–85
+Gender,Respondent gender,Categorical,Female/Male
+Region,Nigerian geopolitical zone,Categorical,6 zones
+State,Nigerian state,Categorical,Selected Nigerian states
+Location_Type,Residence type,Categorical,Rural/Urban/Peri-urban
+Household_Size,Number of household members,Numeric,1–15
+Children_Under_5,Children below age five,Numeric,0+
+Education_Level,Highest education level,Categorical,4 levels
+Employment_Status,Employment category,Categorical,4 categories
+Marital_Status,Marital status,Categorical,4 categories
+Monthly_Household_Income_NGN,Monthly household income in NGN,Numeric,Synthetic
+Wealth_Index,Synthetic relative household wealth index,Numeric,0–100
+Food_Expenditure_Share,Share of household spending on food,Numeric,0.35–0.92
+Food_Insecurity_Score,Synthetic food insecurity severity score,Numeric,0–10
+Meals_Per_Day,Average meals consumed per day,Numeric,1–5
+Dietary_Diversity_Score,Food-group diversity score,Numeric,1–12
+Fruit_Frequency_Weekly,Fruit consumption occasions/week,Numeric,0–14
+Vegetable_Frequency_Weekly,Vegetable consumption occasions/week,Numeric,0–14
+Animal_Source_Food_Frequency_Weekly,Animal-source food occasions/week,Numeric,0–14
+Legume_Frequency_Weekly,Legume consumption occasions/week,Numeric,0–14
+Fortified_Food_Frequency_Weekly,Fortified-food consumption occasions/week,Numeric,0–14
+Daily_Calorie_Intake_kcal,Estimated daily energy intake,Numeric,700–4500 kcal
+Daily_Protein_Intake_g,Estimated daily protein intake,Numeric,12–180 g
+BMI,Body mass index,Numeric,13–42 kg/m²
+Recent_Illness,Recent illness severity category,Categorical,4 categories
+Chronic_Condition,Reported chronic condition indicator,Categorical,None/Yes
+Hemoglobin_g_dL,Hemoglobin measurement,Numeric,6.5–17.5 g/dL
+MUAC_cm,Mid-upper arm circumference,Numeric,9–30 cm
+Clean_Water_Access,Access to clean/improved water,Categorical,Yes/No
+Sanitation_Type,Sanitation category,Categorical,4 categories
+Handwashing_Facility,Handwashing facility availability,Categorical,Yes/No
+Toilet_Access,Household toilet access,Categorical,Private/Shared/None
+Annual_Rainfall_mm,Synthetic annual rainfall,Numeric,250–2200 mm
+Mean_Temperature_C,Synthetic mean temperature,Numeric,21–33 °C
+Drought_Exposure_Index,Synthetic environmental exposure index,Numeric,0–100
+Food_Price_Index,Synthetic food price index,Numeric,85–145
+Nutritional_Risk_Level,Synthetic ML target class,Target,Low/Moderate/High
